@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Pruebajfx-elena.jnlp">
+  <information>
+    <title>Pruebajfx-elena</title>
+    <vendor>Elena</vendor>
+    <description>Pruebajfx-elena</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Pruebajfx-elena.jar" size="4757331" download="eager" />
+    <jar href="libs\jfoenix-1.4.0.jar" size="2363143" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="0" height="0" main-class="control.MainFX"  name="Pruebajfx-elena" />
+  <update check="background"/>
+</jnlp>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.ControlFX">
+   <center>
+      <ImageView fitHeight="231.0" fitWidth="397.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+         <image>
+            <Image url="@../../../../Desktop/uemDesrrollo/examen/mar.gif" />
+         </image>
+      </ImageView>
+   </center>
+   <bottom>
+      <Pane opacity="0.72" prefHeight="72.0" prefWidth="500.0" style="-fx-background-color: #5d4837;" BorderPane.alignment="CENTER">
+         <children>
+            <JFXButton buttonType="RAISED" layoutX="27.0" layoutY="20.0" onMouseClicked="#closeApp" style="-fx-border-color: #fff; -fx-border-radius: 10px;" text="Close" textFill="WHITE" />
+         </children></Pane>
+   </bottom>
+   <top>
+      <AnchorPane prefHeight="53.0" prefWidth="500.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="103.0" layoutY="17.0" prefHeight="29.0" prefWidth="273.0" text="Lets jump into a new adventure" textFill="#212121" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </top>
+</BorderPane>
